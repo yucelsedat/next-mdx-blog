@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Navbar() {
   return (
@@ -26,7 +27,7 @@ export default function Navbar() {
           <Link className='text-white/90 hover:text-white'
             href={'https://www.google.com'}
           >
-            <FaTwitter />
+            <FaXTwitter />
           </Link>
         </div>
       </div>
