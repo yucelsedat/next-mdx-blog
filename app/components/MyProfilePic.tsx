@@ -4,7 +4,7 @@ export default function MyProfilePic() {
   return (
     <section className='w-full'>
       <Image 
-        src={'/images/5.png'}
+        src={'/images/profil-sea.png'}
         width={200}
         height={200}
         alt='Sedat Yucel'
