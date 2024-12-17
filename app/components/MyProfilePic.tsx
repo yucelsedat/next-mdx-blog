@@ -9,7 +9,7 @@ export default function MyProfilePic() {
         height={200}
         alt='Sedat Yucel'
         priority={true} //sayfa yüklenir yüklenmez resim gözüksün 
-        className='object-cover object-top aspect-square border-4 border-black dark:border-slate-500 drop-shadow-xl shadow-black rounded-full mx-auto mt-8'
+        className='aspect-[1/1] object-cover object-top border-4 border-black dark:border-slate-500 drop-shadow-xl shadow-black rounded-full mx-auto mt-8'
       />
     </section>
   )
